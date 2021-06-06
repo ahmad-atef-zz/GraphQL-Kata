@@ -17,6 +17,8 @@
 		1EAD8710266D255B0070AE91 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD870F266D255B0070AE91 /* API.swift */; };
 		1EAD8713266D25BA0070AE91 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 1EAD8712266D25BA0070AE91 /* Apollo */; };
 		1EAD8715266D25BA0070AE91 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 1EAD8714266D25BA0070AE91 /* ApolloWebSocket */; };
+		1EAD8717266D263D0070AE91 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD8716266D263D0070AE91 /* Network.swift */; };
+		1EAD8719266D2B820070AE91 /* LaunchListClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD8718266D2B820070AE91 /* LaunchListClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		1E3A851C266D14D30004393C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E3A851E266D14D30004393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EAD870F266D255B0070AE91 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1EAD8716266D263D0070AE91 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		1EAD8718266D2B820070AE91 /* LaunchListClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchListClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				1E3A8519266D14D30004393C /* Assets.xcassets */,
 				1E3A851B266D14D30004393C /* LaunchScreen.storyboard */,
 				1E3A851E266D14D30004393C /* Info.plist */,
+				1EAD8716266D263D0070AE91 /* Network.swift */,
+				1EAD8718266D2B820070AE91 /* LaunchListClient.swift */,
 			);
 			path = "GraphQL-Kata";
 			sourceTree = "<group>";
@@ -157,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EAD8717266D263D0070AE91 /* Network.swift in Sources */,
 				1E3A8515266D14D00004393C /* ViewController.swift in Sources */,
 				1E3A8511266D14D00004393C /* AppDelegate.swift in Sources */,
+				1EAD8719266D2B820070AE91 /* LaunchListClient.swift in Sources */,
 				1EAD8710266D255B0070AE91 /* API.swift in Sources */,
 				1E3A8513266D14D00004393C /* SceneDelegate.swift in Sources */,
 			);
