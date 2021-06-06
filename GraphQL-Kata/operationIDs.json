@@ -1,0 +1,6 @@
+{
+  "13a618825d56f0a6f7dceb08aeba7b0049f0833ce714e674f1d0c910afc4a59a": {
+    "name": "LaunchList",
+    "source": "query LaunchList {\n  launches {\n    __typename\n    cursor\n    hasMore\n    launches {\n      __typename\n      id\n      site\n    }\n  }\n}"
+  }
+}
